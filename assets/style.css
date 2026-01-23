@@ -9,3 +9,8 @@
 .text-shadow-lg{
     text-shadow: 0 3px 10px #111;
 }
+
+h2 {
+    scroll-margin-top: 100px;
+    scroll-snap-margin-top: 100px;
+}
