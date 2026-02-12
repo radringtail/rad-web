@@ -18,6 +18,8 @@
     
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" crossorigin="anonymous" async></script>
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.5/dist/index.bundle.min.js"></script>
 </head>
 <body data-bs-spy="scroll" data-bs-target="#main-nav-list">
     <a href="#content" class="visually-hidden-focusable">Skip to Main Content</a>
@@ -48,6 +50,9 @@
                             </li>
                             <li class="nav-item">
                                 <a href="#charity" class="nav-link">Charity</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#art" class="nav-link">Art</a>
                             </li>
                             <li class="nav-item">
                                 <a href="#favs" class="nav-link">Favs</a>
@@ -382,7 +387,7 @@
                     </p>
                 </div>
             </div>
-
+            
             <h3 class="h1 mb-5 text-center">Notable VODs and Supercuts</h3>
             <div class="row g-4">
                 <div class="col-lg-3 col-md-4 col-sm-6">
@@ -583,7 +588,7 @@
         </div>
         
         <h3 class="h1 mb-5 text-center">Other Event Runs</h3>
-        <div class="row mb-5 g-4">
+        <div class="row mb-5 g-4 justify-content-center">
             <div class="col-xl-3 col-lg-4 col-md-6">
                 <div class="card shadow h-100">
                     <a href="https://www.youtube.com/watch?v=daMeMUgq6vI" target="_blank"><img src="assets/thumbnails/ufo50-ff.jpg" class="card-img-top shadow"></a>
@@ -887,7 +892,7 @@
         </div>
         
         <h3 class="h1 mb-5 text-center">Previous Charity Marathons</h3>
-        <div class="row mb-3">
+        <div class="row mb-3 justify-content-center">
             <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
                 <div class="card shadow h-100">
                     <div class="card-header d-flex justify-content-between align-items-center fs-5">
@@ -1022,13 +1027,122 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-8 mx-auto">
+                <h2 class="display-2 text-center" id="art">Artwork of Rad</h2>
+                <hr class="pb-4">
+            </div>
+        </div>        
+        <div class="row mb-4 g-4" data-masonry='{"percentPosition": true }''>
+            <div class="col-sm-6 col-lg-4">
+                <div class="card bg-dark-subtle border-dark shadow rounded rounded-4">
+                    <img src="assets/art/radzara.jpg" class="img-fluid rounded-4">
+                    <div class="artist text-center">
+                        <span class="badge text-bg-dark mb-1">Artist: Bloom</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+                <div class="card bg-dark-subtle border-dark shadow rounded rounded-4">
+                    <img src="assets/art/bubbles-gungeon.jpg" class="img-fluid rounded-4">
+                    <div class="artist text-center">
+                        <span class="badge text-bg-dark mb-1">Artist: Bloom</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+                <div class="card bg-dark-subtle border-dark shadow rounded rounded-4">
+                    <img src="assets/art/fpop_rad.jpg" class="img-fluid rounded-4">
+                    <div class="artist text-center">
+                        <span class="badge text-bg-light mb-1">Artist: fpop</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+                <div class="card bg-dark-subtle border-dark shadow rounded rounded-4">
+                    <img src="assets/art/bubbles-tunic.jpg" class="img-fluid rounded-4">
+                    <div class="artist text-center">
+                        <span class="badge mb-1">Artist: Bloom</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+                <div class="card bg-dark-subtle border-dark shadow rounded rounded-4">
+                    <img src="assets/art/bubbles-brb.jpg" class="img-fluid rounded-4">
+                    <div class="artist text-center">
+                        <span class="badge text-bg-light mb-1">Artist: Bloom</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+                <div class="card bg-dark-subtle border-dark shadow rounded rounded-4">
+                    <img src="assets/art/jonas-icon.png" class="img-fluid rounded-4">
+                    <div class="artist text-center">
+                        <span class="badge text-bg-dark mb-1">Artist: Jonas</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+                <div class="card bg-dark-subtle border-dark shadow rounded rounded-4">
+                    <img src="assets/art/kaos-rad.jpg" class="img-fluid rounded-4">
+                    <div class="artist text-center">
+                        <span class="badge text-bg-light mb-1">Artist: Kaos</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+                <div class="card bg-dark-subtle border-dark shadow rounded rounded-4">
+                    <img src="assets/art/marci-rad-badge.jpg" class="img-fluid rounded-4">
+                    <div class="artist text-center">
+                        <span class="badge text-bg-light mb-1">Artist: Marci</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+                <div class="card bg-dark-subtle border-dark shadow rounded rounded-4">
+                    <img src="assets/art/nebula-rad.png" class="img-fluid rounded-4">
+                    <div class="artist text-center">
+                        <span class="badge text-bg-light mb-1">Artist: Nebula</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+                <div class="card bg-dark-subtle border-dark shadow rounded rounded-4">
+                    <img src="assets/art/demo-rad.png" class="img-fluid rounded-4">
+                    <div class="artist text-center">
+                        <span class="badge text-bg-light mb-1">Artist: Demo</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+                <div class="card bg-dark-subtle border-dark shadow rounded rounded-4">
+                    <img src="assets/art/bubbles-lean.jpg" class="img-fluid rounded-4">
+                    <div class="artist text-center">
+                        <span class="badge text-dark mb-1">Artist: Bloom</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+                <div class="card bg-dark-subtle border-dark shadow rounded rounded-4">
+                    <img src="assets/art/bubbles-peace.jpg" class="img-fluid rounded-4">
+                    <div class="artist text-center">
+                        <span class="badge text-bg-light mb-1">Artist: Bloom</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="spacer py-5"></div>
+</section>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8 mx-auto">
                 <h2 class="display-2 text-center" id="favs">Favorites</h2>
                 <hr class="pb-4">
             </div>
         </div>
         
         <h3 class="mb-3 text-center">Video Games</h3>
-        <div class="row mb-4 g-2">
+        <div class="row mb-4 g-2 justify-content-center">
             <div class="col-2 col-lg-1">
                 <img src="assets/games/blueprince.webp" class="img-fluid rounded shadow">
             </div>
@@ -1287,7 +1401,7 @@
         </div>
         
         <h3 class="h1 mb-5 text-center">Artists, Modelers and Technical Help</h3>
-        <div class="row mb-3 g-lg-3 g-md-4 g-xl-5 text-center">
+        <div class="row mb-3 g-lg-3 g-md-4 g-xl-5 text-center justify-content-center">
             <div class="col-lg-2 col-md-4 col-sm-6">
                 <img src="assets/people/howard.jpg" title="HowardFox" width="300" class="img-fluid rounded-circle border border-4 shadow mb-3">
                 <h4 class="mb-3">
@@ -1382,9 +1496,11 @@
     </div>
     <div class="spacer py-4"></div>
 </section>
-<footer class="site-footer d-print-none pt-4 pb-3 mt-5 bg-dark-subtle">
+<section style="height: 100vh; background-image: url(assets/hero/ending.jpg); background-size: cover; background-position: 50% 50%;" class="mt-5 bg-dark border-top shadow" id="hero">
+</section>
+<footer class="site-footer d-print-none py-4 bg-dark-subtle">
     <div class="container">
-        <p>
+        <p class="my-2">
             Site by <a href="https://twitch.tv/radringtail" class="link-light">RadRingtail</a>
             &bull; Built on <a href="https://getbootstrap.com/" class="link-light">Bootstrap 5</a>
         </p>
