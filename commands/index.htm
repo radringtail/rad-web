@@ -62,13 +62,13 @@
                 <div class="col-lg-2 col-md-3 col-sm-4 col-6">
                     <div class="btn btn-secondary d-block fw-bold text-light text-shadow px-2 py-3 mb-0 shadow">!2d</div>
                     <p>
-                        2D VTuber by BAT!
+                        2D VTuber credit
                     </p>
                 </div>
                 <div class="col-lg-2 col-md-3 col-sm-4 col-6">
                     <div class="btn btn-secondary d-block fw-bold text-light text-shadow px-2 py-3 mb-0 shadow">!3d</div>
                     <p>
-                        3D VTuber by Howard Fox
+                        3D VTuber credit
                     </p>
                 </div>
                 <div class="col-lg-2 col-md-3 col-sm-4 col-6">
@@ -260,7 +260,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-4 col-6">
                     <div class="btn btn-success d-block fw-bold text-light text-shadow px-2 py-3 mb-0 shadow">!winner</div>
                     <p>
-                        Choose a random user in chat
+                        Random user in chat
                     </p>
                 </div>
                 <div class="col-lg-2 col-md-3 col-sm-4 col-6">
@@ -415,7 +415,7 @@
             $("#hero").css("background-image", `url('../assets/hero/${season}.jpg')`);
             
             $("#sfx .btn").on("click", function(){
-                var btnText = $(this).html();
+                var btnText = $(this).html().toLowerCase();
                 var btnSound = new Audio(`../assets/sounds/${btnText}.ogg`);
                 btnSound.play();
             });
