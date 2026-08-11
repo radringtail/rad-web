@@ -33,3 +33,42 @@ h2 {
     	overflow-x: hidden;
 	}
 }
+
+.hoverbox {
+    transition: transform .2s ease-out; 
+    cursor: zoom-in;
+}
+
+.hoverbox:hover {
+   transform: scale(1.667);
+}
+
+.videobox {
+    transition: transform .2s ease-out; 
+    cursor: zoom-in;
+}
+
+.videobox:hover {
+   transform: scale(1.15);
+   z-index: 1000;
+}
+
+.artistbox {
+    transform: rotate(5deg);
+    transition: transform .2s ease-out; 
+    cursor: crosshair;
+}
+
+.artistbox:hover {
+   transform: scale(1.33) rotate(0deg);
+}
+
+.glowbox {
+    transition: transform .2s ease-out; 
+}
+
+.glowbox:hover {
+   box-shadow: 3px 3px #ccc;
+   z-index: 1000;
+}
+
