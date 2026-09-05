@@ -34,41 +34,21 @@ h2 {
 	}
 }
 
-.hoverbox {
-    transition: transform .2s ease-out; 
-    cursor: zoom-in;
+.zoom-xs,
+.zoom-sm,
+.zoom-md,
+.zoom-lg {
+    transition: transform .1s ease-out; 
 }
 
-.hoverbox:hover {
-   transform: scale(1.667);
+.zoom-xs:hover,
+.zoom-sm:hover,
+.zoom-md:hover,
+.zoom-lg:hover {
+    z-index: 1000;
 }
 
-.videobox {
-    transition: transform .2s ease-out; 
-    cursor: zoom-in;
-}
-
-.videobox:hover {
-   transform: scale(1.15);
-   z-index: 1000;
-}
-
-.artistbox {
-    transform: rotate(5deg);
-    transition: transform .2s ease-out; 
-    cursor: crosshair;
-}
-
-.artistbox:hover {
-   transform: scale(1.33) rotate(0deg);
-}
-
-.glowbox {
-    transition: transform .2s ease-out; 
-}
-
-.glowbox:hover {
-   box-shadow: 3px 3px #ccc;
-   z-index: 1000;
-}
-
+.zoom-xs:hover { transform: scale(1.1); }
+.zoom-sm:hover { transform: scale(1.2); }
+.zoom-md:hover { transform: scale(1.333); }
+.zoom-lg:hover { transform: scale(1.667); }
