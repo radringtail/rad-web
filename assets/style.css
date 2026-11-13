@@ -1,12 +1,12 @@
-.text-shadow{
+.text-shadow {
     text-shadow: 0 1px 2px #000;
 }
 
-.text-shadow-md{
+.text-shadow-md {
     text-shadow: 0 2px 5px #000;
 }
 
-.text-shadow-lg{
+.text-shadow-lg {
     text-shadow: 0 3px 10px #111;
 }
 
@@ -14,12 +14,12 @@ h2 {
     scroll-margin-top: 100px;
 }
 
-.card-bg{
+.card-bg {
     background-size: cover;
     background-position: 50% 50%;
 }
 
-.artist{
+.artist {
     position: absolute;
     bottom: 5px;
     left: 0;
@@ -28,27 +28,26 @@ h2 {
     margin-right: auto;
 }
 
-@media (max-width: 576px){
-	html, body{
-    	overflow-x: hidden;
-	}
+.zoom-xs, .zoom-sm, .zoom-md, .zoom-lg {
+    transition: transform .25s ease-out;
 }
 
-.zoom-xs,
-.zoom-sm,
-.zoom-md,
-.zoom-lg {
-    transition: transform .1s ease-out; 
-}
-
-.zoom-xs:hover,
-.zoom-sm:hover,
-.zoom-md:hover,
-.zoom-lg:hover {
+.zoom-xs:hover, .zoom-sm:hover, .zoom-md:hover, .zoom-lg:hover {
     z-index: 1000;
 }
 
-.zoom-xs:hover { transform: scale(1.1); }
-.zoom-sm:hover { transform: scale(1.2); }
-.zoom-md:hover { transform: scale(1.333); }
-.zoom-lg:hover { transform: scale(1.667); }
+.zoom-xs:hover {
+    transform: scale(1.1);
+}
+
+.zoom-sm:hover {
+    transform: scale(1.2);
+}
+
+.zoom-md:hover {
+    transform: scale(1.333);
+}
+
+.zoom-lg:hover {
+    transform: scale(1.667);
+}
